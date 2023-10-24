@@ -1,4 +1,4 @@
-# WhirlX
+# TypeFlash
 
 This is an application implemented using python and libraries time and streamlit.
 
