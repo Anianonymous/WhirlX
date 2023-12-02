@@ -6,4 +6,14 @@ This calculates your typing speed 🚀 in words-per-minute (WPM) speed!
 
 I deployed this on streamlit.
 
-https://whirlx.streamlit.app/
+## Usage
+Open the terminal and run the application by usign docker
+
+* Build the image 
+```python
+docker build -t imagename .
+```
+* Run the image
+```python
+docker run imagename
+```  
