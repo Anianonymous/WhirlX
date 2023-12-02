@@ -8,21 +8,21 @@ I deployed this on streamlit.
 - Python
 - Streamlit
 - Docker
-- 
+
 # Build Instruction
-- Clone the repo <br>
+- Clone the repo 
   ```sh
-     git clone https://github.com/TypeFlash.git 
+  git clone https://github.com/anirudh-hegde/TypeFlash.git
   ```
-- Move to Repository Directory <br>
+- Move to Repository Directory 
   ```sh 
   cd TypeFlash
   ```
-- Build Docker Container <br>
+- Build Docker Container 
   ```sh
   docker build -t typeflash  .
   ```
-- Use the container and activate the API <br>
+- Use the container and activate the API 
   ```sh
   docker run typeflash
 
