@@ -24,7 +24,7 @@ I deployed this on streamlit.
   ```
 - Use the container and activate the API 
   ```sh
-  docker run typeflash
+  docker run --user=root typeflash
 
 # Conclusion
 Congratulations, you have successfully run the application.
