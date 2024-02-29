@@ -1,15 +1,15 @@
-🌀TypeFlash
+# 🌀TypeFlash
 
 This is an application implemented using python and libraries time and streamlit.
 This calculates your typing speed 🚀 in words-per-minute (WPM) speed!
 I deployed this on streamlit.
 
-# Tech Stack Used
+## Tech Stack Used
 - Python
 - Streamlit
 - Docker
 
-# Build Instruction
+## Build Instruction
 - Clone the repo 
   ```sh
   git clone https://github.com/anirudh-hegde/TypeFlash.git
@@ -26,5 +26,5 @@ I deployed this on streamlit.
   ```sh
   docker run --user=root typeflash
 
-# Conclusion
+## Conclusion
 Congratulations, you have successfully run the application.
