@@ -1,6 +1,6 @@
 # 🌀TypeFlash
 
-This is an application implemented using python and libraries time and streamlit.
+TypeFlash is an application which identifies your typing speed 🚀️ implemented using python and libraries time and streamlit.
 I have dockerized the application.
 
 ## Tech Stack Used
