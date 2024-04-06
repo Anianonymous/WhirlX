@@ -29,7 +29,6 @@ def streamlit_typing_speed_test():
         st.session_state.start_time = 0
     if 'end_time' not in st.session_state:
         st.session_state.end_time = 0
-    
     if st.button('Start Typing '):
         st.session_state.start_time = time.time()
 
