@@ -1,18 +1,15 @@
 """Implements the TypeFlash app to test the speed of your typing"""
-import streamlit as st
 import time
-
+import streamlit as st
 
 def streamlit_typing_speed_test():
-    """Contributes to the process of identifying the speed of your typed text"""
-    
+    """Contributes to the process of identifying the speed of your typed text"""    
     st.set_page_config(
         page_title="Typing Speed Test",
         page_icon="🧊",
         layout="centered",
         initial_sidebar_state="collapsed"
     )
-    
     st.markdown("""
         Welcome to the Typing Speed Test! 🚀
 
@@ -30,10 +27,9 @@ def streamlit_typing_speed_test():
 
     if 'start_time' not in st.session_state:
         st.session_state.start_time = 0
-    
     if 'end_time' not in st.session_state:
         st.session_state.end_time = 0
-
+    
     if st.button('Start Typing '):
         st.session_state.start_time = time.time()
 
