@@ -17,7 +17,7 @@ def streamlit_typing_speed_test():
 
         1. Click on the **Start Typing** button when you're ready.
         2. Type in the provided text box.
-        3. Click **Done Typing** once you finish.
+        3. Click **Done Typing** once you have finished.
         4. Get your words-per-minute (WPM) speed!
         """)
 
